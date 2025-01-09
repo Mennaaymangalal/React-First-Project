@@ -1,0 +1,33 @@
+.star-icon{
+  color: #2c3e50;
+  font-size: 30px;   
+}
+.line {
+    padding-top: 20px;   
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .line::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    border: 3px solid #2c3e50;
+    height: 2px; 
+    left: 50px;
+  
+  }
+  .line::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    border: 3px solid #2c3e50;
+    height: 2px; 
+    right:  50px;
+  }
+  
+  
